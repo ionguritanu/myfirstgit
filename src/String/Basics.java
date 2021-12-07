@@ -27,6 +27,14 @@ public class Basics {
         word += 33;
         System.out.println(word);
 
+       String str = "just do it";
+        System.out.println(str);
+
+        String str1 =new String(" what ever it takes!");
+        System.out.println(str1);
+        System.out.println(str + str1);
+
+
 
     }
 }

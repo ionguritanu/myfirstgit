@@ -17,5 +17,6 @@ public class LogicalNegation {
         System.out.println(">>>>>>>>" + isLightOn);
         System.out.println(isLightOn == haveMoney);
         System.out.println(!(isLightOn == haveMoney));
+
     }
 }
