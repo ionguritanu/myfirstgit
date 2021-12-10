@@ -7,10 +7,10 @@ public class task3 {
         Scanner input = new Scanner(System.in);
         System.out.println("please enter your balance");
         double total = input.nextDouble();
-        double result = total * 100; // cents
+        double result = total * 100;
         int result1 = (int) result;
-        int quarters = result1 / 25;// quarters
-        int reminder1 = result1 % 25;//
+        int quarters = result1 / 25;
+        int reminder1 = result1 % 25;
         int dimes = reminder1 / 10;
         int reminder2 = reminder1 % 10;
         int nickles = reminder2 / 5;

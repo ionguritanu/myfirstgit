@@ -2,7 +2,7 @@ package zHomework6;
 
 import java.util.Scanner;
 
-public class task1OddOrEvenLength {
+public class task1_Odd_Or_Even_Length {
     public static void main(String[] args) {
 
         //Using scanner ask user to enter one string value.
