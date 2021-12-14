@@ -1,4 +1,4 @@
-package Loops;
+package Loops.while_do_doWhile;
 
 public class doWhileCountingChars {
     public static void main(String[] args) {

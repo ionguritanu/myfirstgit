@@ -1,4 +1,7 @@
-package Loops;
+package Loops.while_do_doWhile;
+
+import java.util.Random;
+import java.util.Scanner;
 
 public class headTailGame_____ {
     public static void main(String[] args) {
@@ -18,9 +21,32 @@ public class headTailGame_____ {
                 *** ternary *** in implementation
 */
 
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        String playAgain;
+        do {
+            System.out.println("Make a guess! Head?Tail");
+            String guess = scanner.nextLine();
+            int number =  random.nextInt(2);
+             String reult = number == 0 ? "HEAD" : "TAIL";
+
+             // if you want to filter user's head or tail answer you can implement condition here
+
+             if (guess.equalsIgnoreCase(reult)){
+                 System.out.println("You are lucky");
+             } else {
+
+                 System.out.println("Sorry, that was not the correct choice!");
+             }
 
 
+            System.out.println("Do you want to play again? Yes / No");
 
+             playAgain = scanner.nextLine();
+
+        } while (playAgain.equalsIgnoreCase("yes"));
+
+        System.out.println("Its Ok, SEE you NEXT time!");
 
     }
 }

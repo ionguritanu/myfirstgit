@@ -16,15 +16,17 @@ public class task1_finding_dad {
         System.out.println("Enter a string value");
 
         Scanner input = new Scanner(System.in);
-        String userInput = input.nextLine();
+        String value = input.nextLine();
 
-        char a = 'a';
 
-        while (a >= 'a' && a <= 'z') {
+        int a=1;
+        int b=3;
+        if(value.substring(b).contains("d") && value.substring(a+2).contains("d"))
+        {
             System.out.println("dad");
-            a++;
-
         }
+
+      }
     }
-}
+
 

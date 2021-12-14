@@ -5,6 +5,26 @@
 //
 //public class task_music_box {
 //    public static void main(String[] args) {
+
+//sout "Please enter the music type"
+
+// case 1 Classical
+  // sout "Which song you want to listen"
+  //- Four season
+  //- Fur Elise
+  //- Finalandia
+  //- Vocalise
+  //- The planets
+
+//case 2 Pop
+
+//case 3 Country
+
+//default "Type of music is not available"
+
+
+
+
 //        Scanner input = new Scanner (System.in);
 //        System.out.println("PLease enter your type of music");
 //        String type = input.nextLine().toLowerCase();

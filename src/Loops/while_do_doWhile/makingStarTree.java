@@ -1,4 +1,4 @@
-package Loops;
+package Loops.while_do_doWhile;
 
 import java.util.Scanner;
 

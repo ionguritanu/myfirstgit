@@ -16,13 +16,13 @@ public class task6 {
         //The output is:
         //5ilk 6eanuts 7utter
         //Description
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter three different ingredients on the same line");
-        String threeWords = scanner.nextLine();        //user input
+        String threeWords = scanner.nextLine();           //user input
 
         System.out.println("Please enter a number");
-        int number = scanner.nextInt();                // user number input
-
+        int number = scanner.nextInt();                  // user number input
 
         // separating  words
         int indexOfSpace = threeWords.indexOf(' ');
@@ -32,17 +32,14 @@ public class task6 {
 
         int indexOfSpaceTwo = threeWords.indexOf(' ');
         String lastTwoWordsWithSpace = threeWords.substring(firstWord.lastIndexOf(' ')+1 );    // removing last two words
-        //System.out.println(lastTwoWordsWithSpace);
 
         String secondWord = lastTwoWordsWithSpace.substring(0, indexOfSpaceTwo +1);             // second word
         System.out.println(secondWord);
-
 
         String thirdWord = lastTwoWordsWithSpace.substring(lastTwoWordsWithSpace.lastIndexOf(' ') +1); // removing 3rd word
         System.out.println(thirdWord);
 
         /// cut the first letter from string(words)
-
         String firstWordLetter = firstWord.substring(1);               // first word without first letter
         System.out.println(firstWordLetter);
 
@@ -52,7 +49,6 @@ public class task6 {
         String thirdWordLetter = thirdWord.substring(1);                // third word without first letter
         System.out.println(thirdWordLetter);
 
-        //System.out.println(firstWord + secondeWordLetter + thirdWordLetter);
         System.out.println(number + firstWordLetter + " " + (number+1) + secondeWordLetter + " " + ( number +2) + thirdWordLetter );
 
     }
