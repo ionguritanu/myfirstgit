@@ -1,4 +1,4 @@
-package Loops.forLoop;
+package Loops.for_loop;
 
 public class curlyBpractice {
     public static void main(String[] args) {

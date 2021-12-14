@@ -1,4 +1,4 @@
-package Loops.forLoop;
+package Loops.for_loop;
 
 public class charPrtactice {
     public static void main(String[] args) {

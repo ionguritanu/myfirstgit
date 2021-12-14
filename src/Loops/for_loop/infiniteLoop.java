@@ -1,4 +1,4 @@
-package Loops.forLoop;
+package Loops.for_loop;
 
 public class infiniteLoop {
     public static void main(String[] args) {

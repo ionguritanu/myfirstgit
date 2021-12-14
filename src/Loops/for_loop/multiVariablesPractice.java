@@ -1,6 +1,4 @@
-package Loops.forLoop;
-
-import java.sql.SQLOutput;
+package Loops.for_loop;
 
 public class multiVariablesPractice {
 

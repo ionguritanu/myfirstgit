@@ -1,4 +1,4 @@
-package Loops.forLoop;
+package Loops.for_loop;
 
 public class nested_prefect_number {
     public static void main(String[] args) {

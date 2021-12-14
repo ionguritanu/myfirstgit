@@ -1,4 +1,4 @@
-package Loops.forLoop;
+package Loops.for_loop;
 
 public class nested_brake_continue {
     public static void main(String[] args) {

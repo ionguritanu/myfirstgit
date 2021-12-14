@@ -1,4 +1,4 @@
-package Loops.forLoop;
+package Loops.for_loop;
 
 public class nested_digital_clock {
     public static void main(String[] args) {

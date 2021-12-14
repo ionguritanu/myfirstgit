@@ -1,4 +1,4 @@
-package Loops.forLoop;
+package Loops.for_loop;
 
 public class palindrom_practice {
     public static void main(String[] args) {
