@@ -32,6 +32,7 @@ public class task2 {
             }
             System.out.println(Arrays.toString(longNames));
             System.out.println(Arrays.toString(shortNames));
+
         }
     }
 }
