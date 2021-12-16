@@ -7,7 +7,7 @@ public class music_box {
     public static void main(String[] args) {
         System.out.println("Available music types are Classical, Pop, and Country");
         Scanner input = new Scanner(System.in);
-        System.out.println("What type of music you want to listen?");
+        System.out.println("What type of music do you want to listen?");
         String type = input.nextLine().toLowerCase();
 
 
@@ -34,7 +34,10 @@ public class music_box {
                 }
                 if (song1.equals("four season") || song1.equals("fur elise") || song1.equals("finlandia") ||
                         song1.equals("vocalisa") || song1.equals("the planets")) {
-
+                    System.out.println("Here is the price list:\n" +
+                            "Classical : 2$\n" +
+                            "Country: 3$\n" +
+                            "Pop : 4$");
                     System.out.println("Please enter 2$ for this song");
                 }
                 int price1 = input1.nextInt();
@@ -70,6 +73,10 @@ public class music_box {
                 }
                 if (song2.equals("bad guy") || song2.equals("talk") || song2.equals("please me") ||
                         song2.equals("7 ring") || song2.equals("without me")) {
+                    System.out.println("Here is the price list:\n" +
+                            "Classical : 2$\n" +
+                            "Country: 3$\n" +
+                            "Pop : 4$");
                     System.out.println("Please enter 4$ for this song");
                 }
                 int price2 = input2.nextInt();
@@ -105,6 +112,10 @@ public class music_box {
                 }
                 if (song3.equals("meant to be") || song3.equals("heaven") || song3.equals("simple") ||
                         song3.equals("one number away") || song3.equals("get along")) {
+                    System.out.println("Here is the price list:\n" +
+                            "Classical : 2$\n" +
+                            "Country: 3$\n" +
+                            "Pop : 4$");
                     System.out.println("Please enter 4$ for this song");
                 }
                 int price3 = input3.nextInt();

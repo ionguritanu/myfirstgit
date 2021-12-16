@@ -16,7 +16,7 @@ public class reverse_number {
         int number = input.nextInt();
         int reversed = 0;
 
-        while (number != 0)  {          // we're doing the process until given number is 0
+        while (number > 0)  {          // we're doing the process until given number is 0
 
             int separateDigit = number % 10; // getting last digit from given number
 

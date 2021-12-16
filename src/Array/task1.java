@@ -24,6 +24,5 @@ public class task1 {
 
         System.out.println(Arrays.toString(names));
 
-
     }
 }

@@ -14,15 +14,14 @@ public class sum_of_series {
         Scanner in = new Scanner(System.in);
         System.out.println("Please enter a number");
         int number = in.nextInt();
-        long sum = 0;
-        for (int i = 1; i <= number; i++) {
-            int p = 1;
-            for (int j = 1; j <= i; j++) {
-                p *= j;
-            }
-            sum += p;
-        }
-        System.out.println( sum);
+
+
+
+
+
+
+
+
     }
-    }
+}
 
