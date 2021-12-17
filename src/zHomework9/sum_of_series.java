@@ -13,15 +13,18 @@ public class sum_of_series {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Please enter a number");
-        int number = in.nextInt();
 
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        int y =1;
+        int sum = 0;
+        for(int i=1 ;i <= number; i++ ){
+            sum = sum+y;     // 0 = 0 +
+            y = (y*10) +1;   // 1 = (1*10) +1;
 
-
-
-
-
-
-
+        }
+// o =
+        System.out.println(sum);
     }
 }
 
