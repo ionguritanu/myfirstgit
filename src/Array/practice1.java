@@ -29,10 +29,5 @@ public class practice1 {
         }
         System.out.println(Arrays.toString(studentIds)); // it will print out all elements from a
 
-
-
-
-
-
     }
 }

@@ -7,7 +7,7 @@ public class BiggestNumber {
     public static void main(String[] args) {
         int[] nums = {4, 24, 10, 100, 5, 78, 11, 25, 55};
 
-        // find the largest numbe
+        // find the largest num
         //int max = arr[0];
 
         int  biggest = nums[0]; // creating another int and pretending that [0] index is the biggest#
@@ -15,7 +15,7 @@ public class BiggestNumber {
 
             if ( nums[k] > biggest) {  //compare it with our [0] #
 
-                biggest = nums[k];  //reasigne
+                biggest = nums[k];  //reassign
             }
         }
         System.out.println(biggest);  //print out the biggest num

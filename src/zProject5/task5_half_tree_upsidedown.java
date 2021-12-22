@@ -21,7 +21,7 @@ public class task5_half_tree_upsidedown {
 
         }
 
-        System.out.print(layersOfPyramid );
+        System.out.print(layersOfPyramid++ );
 
         //System.out.println(); // this sout is to start new line in our coding
 

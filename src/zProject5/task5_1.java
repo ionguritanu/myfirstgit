@@ -12,9 +12,9 @@ public class task5_1 {
 
         for (int a =number; a>=1; a--){
             for(int b =1; b <= a ; b++){
-                System.out.print(a);
+                System.out.print(a + " ");
             }
-            System.out.println(" ");
+            System.out.println();
 
         }
     }

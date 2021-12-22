@@ -23,12 +23,12 @@ public class armstrong_number {
             separateDigit = number % 10;
             number /= 10;
             total = total + separateDigit * separateDigit * separateDigit;
+            
         }
 
         if(total == num)
             System.out.println(num + " is an Armstrong number");
         else
             System.out.println(num + " is not an Armstrong number");
-
     }
 }

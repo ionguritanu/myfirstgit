@@ -60,17 +60,5 @@ public class ArithmeticPractice {
         
 
         //casting
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
