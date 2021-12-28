@@ -24,8 +24,11 @@ public class Animal {
     public void run(){
         energy=energy-10;
         System.out.println(name+ " has " +energy+ " percent energy");
-}
 
+  }
+public void info(){
+    System.out.println("Name is: "+name+ " Age is: "+ age+ " Color is: "+color + " Breed is: "+breed+ " Energy is: "+energy);
+}
 }
 
 

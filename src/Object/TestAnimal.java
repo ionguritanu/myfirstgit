@@ -18,7 +18,7 @@ public class TestAnimal {
         System.out.println(cat.age);
         System.out.println(cat.color);
 
-        //crate a dog animal, try to use instance variable with your nuew object
+        //crate a dog animal, try to use instance variable with your new object
 
         Animal dog = new Animal();
 
@@ -54,6 +54,7 @@ public class TestAnimal {
         System.out.println(cat.energy);
         // charge up the animal when they sleep
 
+        cat.run();
 
 
 
