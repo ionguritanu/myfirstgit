@@ -43,6 +43,65 @@ public class No1__swap_2_numbers {
         Arrays.sort(numArray);
         System.out.println(numArray[numArray.length-2]);
 
+       //task 5
+        //revers string word by word  using charAt()
+        String toRevers = "Hello World";
+        String reversed = "";
+        for(int i = toRevers.length()-1; i>=0; i--){
+            reversed = reversed+toRevers.charAt(i);
+
+        }
+        System.out.println(reversed);
+
+        // using charArray()
+
+        String reversed1 = "";
+        char[] array = toRevers.toCharArray();
+        for (int i= array.length-1; i>=0; i--){
+            reversed1+= array[i];
+        }
+        System.out.println(reversed1);
+
+
+        //using substring
+        String reversed2 = "";
+        for (int i = toRevers.length();i>=1;i--){
+            reversed2+= toRevers.substring(i-1,i);
+        }
+        System.out.println(reversed2);
+
+
+        //reverse a strinword by word
+
+
+        int [] array11 = {1,2,3,4,5,6};
+        int [] reverse11=new int[array11.length];
+        // quastion reverse the array please
+        int ac =0;
+        for(int i = array11.length-1; i>=0; i--){
+            reverse11[ac]=array11[i];
+            ac++;
+
+        }
+        System.out.println(Arrays.toString(reverse11));
+
+
+        //revesing an array[]
+         int [] numbers = {1,2,3,4,5,6};
+         int [] numbers12 =  new int [numbers.length];
+         int f = 0;
+         for (int r = numbers.length-1; r>=0; r--){
+             numbers12[f]= numbers[r];
+             r++;
+
+         }
+
+        System.out.println(numbers12);
+
+
+
+
+
 
     }
 

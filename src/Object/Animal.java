@@ -18,12 +18,10 @@ public class Animal {
         System.out.println(name+ " is charging up...");
         System.out.println("Now "+ name + "'s energy is "+ energy);
     }
-    public void eat(){
-    System.out.println(name+ " is eating");
-}
+    public void eat(){ System.out.println(name+ " is eating");}
     public void run(){
         energy=energy-10;
-        System.out.println(name+ " has " +energy+ " percent energy");
+        System.out.println(name+ " has " +energy+ " % energy");
 
   }
 public void info(){

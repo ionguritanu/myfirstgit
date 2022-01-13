@@ -18,8 +18,7 @@ public class elseTask1 {
             System.out.println("Your payment after 20% discount is" + (total - (total * 0.2)));
         } else {
             System.out.println("Your total discount is " + total * .05);
-            System.out.println("Your pmt after 5% discount is" + (total - (total * 0.05)));
+            System.out.println("Your pmt after 5% discount is " + (total - (total * 0.05)));
         }
-
     }
 }

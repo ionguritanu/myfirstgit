@@ -30,9 +30,10 @@ public class Cat {
         System.out.println();
     }
 
-    //creat a methode that will return color of cat , nam it as getColor
+    //create a methode that will return color of cat , nam it as getColor
 
     public String getColor( ){
+
         return color;
     }
 
