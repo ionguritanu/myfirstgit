@@ -27,6 +27,22 @@ public class elsePractice {
         else
         System.out.println("!!!!!!!!!!");
 
+
+
+        //recap
+        boolean id = false;
+        if(id ==  true){
+            System.out.println("You can enter inside the office");
+        }else{
+            System.out.println("Please double check your ID information");
+        }
+
+
+
+
+
+
+
     }
 }
 

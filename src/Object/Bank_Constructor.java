@@ -15,6 +15,7 @@ public class Bank_Constructor {
     String userName;
     String passWord;
     boolean isLoggedIn = false;
+
     public Bank_Constructor(String accountHolderName, double balance, String userName, String passWord) {
         this.accountHolderName = accountHolderName;
         this.balance = balance;

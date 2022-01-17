@@ -20,5 +20,16 @@ public class elseTask1 {
             System.out.println("Your total discount is " + total * .05);
             System.out.println("Your pmt after 5% discount is " + (total - (total * 0.05)));
         }
+
+
+        System.out.println("======Recap=====");
+        double totalSpent = 1045;
+        if(totalSpent>100){
+            System.out.println("You'll get discount of "+ totalSpent *0.20 );
+            System.out.println("Your total after spending is "+( totalSpent - (totalSpent*0.20)));
+        }else{
+            System.out.println("You'll get discount of "+ totalSpent * .05 );
+            System.out.println("Your total after spending is : "+ (totalSpent-(totalSpent*0.05)));
+        }
     }
 }

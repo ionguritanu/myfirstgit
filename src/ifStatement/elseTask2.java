@@ -17,6 +17,18 @@ public class elseTask2 {
         }
 
 
+        System.out.println("=====RECAP=====");
+
+        Scanner next = new Scanner(System.in);
+        System.out.println("Please enter your zipcode");
+        int newZipCode = next.nextInt();
+        if(newZipCode %2 ==0){
+            System.out.println("The zipcode you entered "+ newZipCode+ " is add number");
+        }else{
+            System.out.println("The zipcode you have entered "+ newZipCode+ " is not add number");
+        }
+
+
 
 
     }
