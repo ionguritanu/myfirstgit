@@ -1,6 +1,4 @@
-package Inheritance;
-
-import javax.sound.midi.Soundbank;
+package OOP.Inheritance;
 
 public class WildAnimal extends Animal {
 

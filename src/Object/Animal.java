@@ -4,7 +4,7 @@ public class Animal {
 
     // instance variables
 
-    String name;
+    public String name;
     int age;
     String color;
     char gender;

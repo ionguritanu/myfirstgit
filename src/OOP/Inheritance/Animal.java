@@ -1,4 +1,4 @@
-package Inheritance;
+package OOP.Inheritance;
 
 public class Animal {
     String name;
